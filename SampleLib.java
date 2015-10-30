@@ -3,7 +3,7 @@
 public class SampleLib {
 
     static {
-	System.loadLibrary("SampleLib");
+	     System.loadLibrary("MyWrapper");
     }
 
     public native int soma(int a, int b);
